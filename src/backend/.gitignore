@@ -1,0 +1,7 @@
+# Backend .gitignore
+node_modules/
+package-lock.json
+.env
+dist/
+build/
+*.log
