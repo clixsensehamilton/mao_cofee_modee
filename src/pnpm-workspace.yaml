@@ -1,0 +1,4 @@
+packages:
+  - 'backend'
+  - 'frontend'
+  - 'shared' # Optional: for shared types/logic
