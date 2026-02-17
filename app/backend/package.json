@@ -1,0 +1,13 @@
+{
+  "name": "mao_cofee_modee-backend",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fastify": "^5.7.4"
+  }
+}
