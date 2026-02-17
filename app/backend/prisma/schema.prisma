@@ -1,0 +1,25 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Prisma schema for mood input
+// Add this model to enable storing user mood data
+
+model MoodInput {
+  id            String   @id @default(uuid())
+  userId        String
+  moodText      String?
+  moodVoicePath String?
+  createdAt     DateTime @default(now())
+}
+
+model Sample {
+  id        Int      @id @default(autoincrement())
+  data      String
+  createdAt DateTime @default(now())
+}
